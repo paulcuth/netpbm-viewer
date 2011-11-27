@@ -1,0 +1,130 @@
+
+footer {
+	display: block;
+}
+
+
+body {
+	color: #657;
+	font-family: cambria, palatino, georgia, serif;
+}
+
+
+p {
+	width: 800px;
+	margin: 40px auto;
+	line-height: 1.75em;
+}
+
+
+h1 {
+	text-align: center;
+	color: #fff;
+	background-color: #05a5ff;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0390e0), color-stop(1, #05a5ff));
+	background-image: -moz-linear-gradient(top, #0390e0, #05a5ff);
+	font-family: monospace;
+	font-size: 100px;
+	line-height: 120px;
+	padding: 120px 0 20px;
+	margin: 0;
+	font-weight: normal;
+
+	/* Following 3D text effect courtesy of @mdo (http://markdotto.com/playground/3d-text/). Awesomesauce. */
+	text-shadow: 0 1px 0 #ccc, 
+				 0 2px 0 #c9c9c9,
+				 0 3px 0 #bbb,
+				 0 4px 0 #b9b9b9,
+				 0 5px 0 #aaa,
+				 0 6px 1px rgba(0,0,0,.1),
+				 0 0 5px rgba(0,0,0,.1),
+				 0 1px 3px rgba(0,0,0,.3),
+				 0 3px 5px rgba(0,0,0,.2),
+				 0 5px 10px rgba(0,0,0,.25),
+				 0 10px 10px rgba(0,0,0,.2),
+				 0 20px 20px rgba(0,0,0,.15);
+}
+
+
+h2 {
+	margin: 20px auto 40px;
+	font-size :24px;
+	letter-spacing: 0.05em;	
+	text-align: center;
+}
+
+
+#holder {
+	background: url(../img/background.png) #444;
+	box-shadow: inset 0 12px 40px rgba(0, 0, 0, .3),
+				inset 0 -12px 40px rgba(0, 0, 0, .3);
+	height: 300px;
+	position: relative;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+
+div.inner-holder {
+	height: 50%;
+	position: relative;
+	top: 50%;
+}
+
+
+#landing-zone {
+	width: 100px; 
+	height: 100px; 
+	border: 5px dashed #ddd;
+	margin-left: 50px;
+	position: relative;
+	top: -55px;
+	display: inline-block;
+	background: url(../img/busy.gif) 0 -9999px no-repeat;
+}
+
+
+#landing-zone.busy {
+	background-position: 50% 50%;
+}
+
+
+#landing-zone span {
+	display: block;
+	color: #aaa;
+	text-align: center;
+	margin-top: 30px;
+}
+
+
+#landing-zone.busy span {
+	display: none;
+}
+
+
+ul {
+	position: absolute;
+	top: 0;
+	left: 160px;
+	padding-right: 25px;
+}
+
+
+li {
+	float: left;
+	position: relative;
+	margin-left: 25px;
+	height: 50%;
+}
+
+
+li img {
+	position: absolute;
+	top: 0;
+	left: 25px;	
+}
+
+
+footer {
+	text-align: center;
+}

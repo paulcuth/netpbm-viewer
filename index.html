@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>Online NetPBM Viewer</title>
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/site.css" />
+	</head>
+
+	<body>
+		<h1>Netpbm Viewer</h1>
+		<h2>View your PPM, PGM and PBM files online</h2>
+
+		<p>After using the <a href="http://openkinect.org/">OpenKinect</a> library to communicate with the Kinect, I had produced many PPM and PGM files that I couldn't open. Furthermore, all the application that I found that could open the files on Mac OS X were massively bloated. What I really wanted was a website that would just convert the files to PNG images. I couldn't find it, so I made this.</p>
+		<p>Drag your PPM, PGM or PBM files onto the dashed area below to convert them to PNG images in your browser.</p>
+
+		<div id="holder">
+			<div class="inner-holder">
+				<div id="landing-zone"><span>Drag netpbm files here</span></div>
+				<ul id="image-list"></ul>
+			</div>
+		</div>
+
+		<footer>
+			<p>If you have any trouble using this viewer, please let me know on <a href="mailto:netpbm-viewer@paulcuth.me.uk">netpbm-viewer@paulcuth.me.uk</a>.</p>
+			<p>Made by <a href="http://twitter.com/paulcuth">@paulcuth</a>.</p>
+		</footer>
+		
+		<script src="./js/jquery.js"></script>
+		<script src="./js/canvas2image.js"></script>
+		<script src="./js/site.js"></script>
+	</body>
+</html>
