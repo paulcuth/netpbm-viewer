@@ -309,7 +309,7 @@
 			height: height + 'px'
 		}); 
 		
-		var $li = $('<li>').append (png).prependTo (imageList);
+		var $li = $('<li>').append (png).appendTo (imageList);
 
 		var holderHeight = height + 50;
 		if ($(holder).height () < holderHeight) $(holder).animate ({ height: holderHeight + 'px' });
